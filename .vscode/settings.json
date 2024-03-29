@@ -1,5 +1,8 @@
 {
     "yaml.schemas": {
-        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": "file:///g%3A/repos/github/ansible-test-playbooks/apt-update.yml"
+        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": [
+            "file:///g%3A/repos/github/ansible-test-playbooks/apt-update.yml",
+            "file:///g%3A/repos/github/ansible-test-playbooks/distr/mc.yml"
+        ]
     }
 }
